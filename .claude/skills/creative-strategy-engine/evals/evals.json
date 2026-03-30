@@ -1,0 +1,46 @@
+{
+  "skill_name": "creative-strategy-engine",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I sell a sleep supplement for adults. Help me map out my creative strategy.",
+      "expected_output": "Should apply the Creative Strategy Engine framework. Should identify Pain as the primary anchor (functional product). Should map 2-4 personas experiencing sleep pain in different life contexts (e.g., stressed professional, new parent, shift worker). For each persona × pain intersection, should define a messaging angle as a conversational human statement — not marketing copy. Should map angles across awareness stages (Unaware through Most-Aware). Should NOT write hooks or scripts — should call out that hook-writing handles execution. Should output a structured strategy matrix.",
+      "assertions": [
+        "Uses pain as primary anchor for a functional product",
+        "Maps multiple personas to the pain anchor",
+        "Defines messaging angles as conversational human statements, not ad copy",
+        "Maps angles across all 5 awareness stages",
+        "Produces a pain/persona matrix structure",
+        "Does not write hooks or ad copy (defers to hook-writing for execution)",
+        "References downstream execution tools (hook-writing, creative-mechanics)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What messaging angles should we use for a luxury travel brand?",
+      "expected_output": "Should recognize luxury travel as desire-led (not pain-led). Should use Desire as the primary anchor instead of Pain. Should map personas experiencing that desire in different contexts (aspiring travelers, celebration planners, remote workers). Should define messaging angles at each persona × desire intersection. Should note the desire-first exception from the framework.",
+      "assertions": [
+        "Identifies this as a desire-led product (exception to pain default)",
+        "Uses Desire as primary anchor",
+        "Maps personas experiencing the desire in different life contexts",
+        "Defines messaging angles for each intersection",
+        "Notes the desire-first exception from the default pain framework"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to define messaging angles, write strategic hooks, and build out a full creative matrix for my project management SaaS.",
+      "expected_output": "Should trigger on 'messaging angles', 'creative matrix', and strategic planning language. Should apply the full engine: pain anchor (productivity pain, missed deadlines, team chaos), persona mapping, messaging angles per intersection, awareness stage matrix. Should produce the creative matrix structure. For hooks, should indicate that hook-writing executes the tactical expressions of the angles — should either hand off or note this clearly.",
+      "assertions": [
+        "Triggers on 'messaging angles' and 'creative matrix' language",
+        "Applies full engine: anchor, personas, angles, awareness stages",
+        "Produces a structured creative matrix",
+        "Defers hook execution to hook-writing skill",
+        "Does not conflate strategic angles with tactical hooks"
+      ],
+      "files": []
+    }
+  ]
+}

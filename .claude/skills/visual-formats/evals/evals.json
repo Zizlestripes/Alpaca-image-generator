@@ -1,0 +1,45 @@
+{
+  "skill_name": "visual-formats",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What video format should I use for a top-of-funnel Meta ad for a new skincare serum? We want to interrupt the scroll and introduce the problem.",
+      "expected_output": "Should apply the format selection criteria: TOF, video, Meta, skincare, interrupt-focused. Should recommend formats strong for TOF: Pattern Interrupt (specifically designed to stop the scroll), One Shot (single take visual impact), Trend (native cultural format), or Yapper (authentic talking-head). Should explain the funnel fit for each recommendation. Should note mechanic compatibility — e.g., Pattern Interrupt format pairs well with Implied Answer or Reframe mechanic. Should NOT recommend BOF formats like VSL or Review for this brief.",
+      "assertions": [
+        "Applies format selection criteria (TOF, video, Meta, interrupt-focused)",
+        "Recommends TOF-appropriate formats (Pattern Interrupt, One Shot, Trend, Yapper)",
+        "Explains funnel fit for each recommendation",
+        "Notes mechanic compatibility for at least one format",
+        "Does not recommend MOF/BOF formats for this brief"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're running retargeting ads for people who visited our checkout page but didn't buy. Should we use a Testimonial or a Social Proof Mashup?",
+      "expected_output": "Should recognize this as a BOF/high-intent retargeting scenario. Both Testimonial and Social Proof Mashup are MOF-BOF formats — both are valid. Should compare: Testimonial (single customer story, more personal and relatable, stronger emotional arc), Social Proof Mashup (volume and variety of voices, 'everyone is doing this' effect, stronger for audiences who need crowd validation). Should recommend based on the checkout abandonment context: Social Proof Mashup often outperforms for cart abandoners who need to feel safe, while Testimonial works better if a specific objection needs addressing. Should reference Proof Stack and Social Witness mechanics as pairings.",
+      "assertions": [
+        "Recognizes BOF context (checkout abandonment retargeting)",
+        "Evaluates both formats as valid for this stage",
+        "Distinguishes Testimonial (personal story) vs. Social Proof Mashup (volume/variety)",
+        "Provides a recommendation based on the specific context",
+        "References mechanic pairings (Proof Stack, Social Witness)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "What format should this be? We have a messaging angle about how people waste money on gym memberships they never use, and we want to pitch a home fitness app.",
+      "expected_output": "Should trigger on 'what format should this be'. Should analyze the messaging angle (wasted money, unused gym = Reframe or Borrowed Enemy mechanic). Should recommend formats that pair with these mechanics: Greenscreen or Yapper (talking head delivering the reframe directly), Skit (dramatizing the unused gym membership scenario), Us vs. Them (gym vs. app comparison), or Meme (if humor-forward). Should note funnel stage implications: this angle works well at TOF-MOF for Problem-Aware and Solution-Aware audiences. Should pair format recommendation with mechanic.",
+      "assertions": [
+        "Triggers on 'what format should this be'",
+        "Analyzes the messaging angle to inform format choice",
+        "Recommends formats compatible with Reframe or Borrowed Enemy mechanics",
+        "Notes funnel stage fit for recommendations",
+        "Pairs format recommendation with mechanic",
+        "Provides rationale for each recommendation"
+      ],
+      "files": []
+    }
+  ]
+}

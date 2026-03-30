@@ -1,0 +1,45 @@
+{
+  "skill_name": "hook-tactics",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What hook tactic should I use for a health supplement brand targeting a skeptical audience that has tried other supplements before?",
+      "expected_output": "Should apply the tactic deployment guidance. For a skeptical, Solution-Aware audience that has tried alternatives, should recommend: Authority (third-party credibility reduces skepticism), Confession (builds trust through honesty), Risk Reversal (removes purchase risk for skeptics), and potentially Contrarian or Myth Busting (challenges false beliefs about supplements). Should explain what each tactic is and when to deploy it. Should note which psychological trigger each tactic uses.",
+      "assertions": [
+        "Applies tactic deployment guidance for skeptical/Solution-Aware audience",
+        "Recommends appropriate tactics (Authority, Confession, Risk Reversal, Contrarian/Myth Busting)",
+        "Defines each recommended tactic",
+        "Notes the psychological trigger behind each tactic",
+        "Explains when to deploy each tactic for this scenario"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Give me hooks organized by tactic type for a meal prep service targeting busy professionals.",
+      "expected_output": "Should trigger on 'hooks organized by tactic type'. Should select relevant tactics for this product/audience and generate at least one hook per tactic. Should cover a range of tactic categories: identity-based (Demographic Callout, Direct Address), emotional (Relatability, Storytelling), educational (How To, Reasons Why), trust-building (Social Proof). Should label each hook with its tactic name. Should distinguish tactics from psychological triggers.",
+      "assertions": [
+        "Triggers on 'organized by tactic type' language",
+        "Selects multiple relevant tactics for product/audience",
+        "Generates at least one hook per selected tactic",
+        "Labels each hook with tactic name",
+        "Covers a range of tactic categories",
+        "Distinguishes tactics from psychological triggers"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "What's the difference between a Contrarian tactic and a Myth Busting tactic? When would I use each?",
+      "expected_output": "Should draw from the tactic definitions. Contrarian: positions your view against mainstream consensus — 'everyone believes X but here's why they're wrong'. Myth Busting: specifically identifies and refutes a named false belief held by the audience. The difference is specificity: Contrarian is broadly oppositional, Myth Busting targets a specific false belief. Should note both typically use Pattern Interrupt trigger. Should give deployment guidance: Contrarian for general pattern interrupts, Myth Busting when a specific false belief is blocking purchase.",
+      "assertions": [
+        "Defines both Contrarian and Myth Busting tactics accurately",
+        "Explains the key distinction (specificity of false belief)",
+        "Notes shared psychological trigger (Pattern Interrupt)",
+        "Provides deployment guidance for when to use each",
+        "References the tactic × trigger relationship"
+      ],
+      "files": []
+    }
+  ]
+}

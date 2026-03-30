@@ -1,0 +1,45 @@
+{
+  "skill_name": "creative-mechanics",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to build an ad concept for a dog food brand. The messaging angle is 'your dog isn't picky — you've just been feeding them the wrong food.' What's the best creative mechanic?",
+      "expected_output": "Should apply the creative mechanics library. The messaging angle is a Reframe (flipping conventional wisdom about picky dogs). Should recommend Reframe as the primary mechanic: the ad reveals that the problem isn't the dog, it's the food — shifting blame from the dog to the category. Could also layer with Implied Answer (showing a dog eagerly eating, implying the owner was wrong) or Borrowed Enemy (positioning against low-quality kibble without naming it). Should explain how the mechanic delivers the truth and recommend awareness stage fit.",
+      "assertions": [
+        "Identifies Reframe as the appropriate mechanic for this messaging angle",
+        "Explains how the Reframe mechanic delivers the core truth",
+        "May suggest layering Implied Answer or Borrowed Enemy",
+        "Provides awareness stage fit guidance",
+        "Does not confuse mechanic with hook or visual format",
+        "Shows how the mechanic sits between hook and format in the creative stack"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I saw an ad where someone walked into a coffee shop, overheard two people talking about how tired they always are, then one of them pulled out an energy supplement. I want to replicate that structure. What creative mechanic is that?",
+      "expected_output": "Should identify this as the Overheard Conversation mechanic — a conversation framed as eavesdropped dialogue to feel like social content rather than an ad. Should explain the mechanic: it disguises the pitch inside a scene the viewer feels they discovered rather than were sold to. Should note the Trojan Horse relationship — the conversation format is the wrapper, the product reveal is the payload. Should recommend best use cases and awareness stage fit for this mechanic.",
+      "assertions": [
+        "Correctly identifies Overheard Conversation mechanic",
+        "Explains the mechanic's psychological function (eavesdropping feels discovered, not sold)",
+        "Notes relationship to Trojan Horse mechanic",
+        "Provides best use cases and awareness stage guidance",
+        "Distinguishes the mechanic from the format (the coffee shop scene is the format; Overheard Conversation is the mechanic)"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Help me design an ad concept. We sell a standing desk converter. I want to build something for people who are Solution-Aware but haven't chosen us yet.",
+      "expected_output": "Should apply creative mechanics to a Solution-Aware brief. For Solution-Aware audiences, appropriate mechanics include: Borrowed Enemy (describe competitor pain without naming them — the desk that hurts your back, the wobbly cheap one), Contrast Without Comment (side-by-side of competitor desk vs. this one, letting the viewer conclude), or Reframe (reposition what 'ergonomic' really means). Should explain why each mechanic is appropriate for this funnel stage. Should indicate this pairs with hook-writing for the opening line and visual-formats for execution.",
+      "assertions": [
+        "Applies mechanics appropriate for Solution-Aware stage",
+        "Recommends Borrowed Enemy, Contrast Without Comment, or Reframe for this stage",
+        "Explains why each mechanic fits Solution-Aware audiences",
+        "Indicates mechanic pairs with hook-writing for opening line",
+        "References visual-formats for execution layer"
+      ],
+      "files": []
+    }
+  ]
+}

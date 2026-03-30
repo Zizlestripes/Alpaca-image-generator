@@ -1,0 +1,43 @@
+{
+  "skill_name": "review-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Here are some customer reviews for our protein powder brand. Please analyze them for ad insights:\n\n'I've tried every protein powder out there and always hated the chalky texture. This one actually mixes smoothly and doesn't make me gag. I was skeptical at first but after 3 weeks I can genuinely say my recovery is faster. Game changer.' ⭐⭐⭐⭐⭐\n\n'Good' ⭐⭐⭐\n\n'I ordered this after seeing it everywhere on Instagram. Was worried it would taste fake sweet like all the others. The chocolate flavor is legitimately good — like a real milkshake. Also lost 4 lbs in the first month which I wasn't even expecting.' ⭐⭐⭐⭐⭐\n\n'Fast shipping' ⭐⭐⭐\n\n'I kept putting off getting serious about nutrition because I hated cooking. This made it stupid easy. My gym buddy noticed I was looking more defined after 6 weeks. I never write reviews but had to for this one.' ⭐⭐⭐⭐⭐",
+      "expected_output": "Should score each review 1-5 for quality before analyzing. Should discard or deprioritize low-signal reviews ('Good', 'Fast shipping'). Should analyze the quality reviews into 5 buckets: Pain Points (chalky texture, fake sweetness, nutrition complexity), Trigger Moments (seeing it on Instagram, wanting easier nutrition), Objections (skepticism about taste/results, past failures), Transformations (faster recovery, weight loss, looking more defined), Standout Language (ad-ready phrases like 'like a real milkshake', 'stupid easy', 'game changer'). Should organize output by product if multiple products present.",
+      "assertions": [
+        "Scores each review for quality (1-5)",
+        "Deprioritizes or discards low-signal reviews",
+        "Analyzes into all 5 buckets: pain points, trigger moments, objections, transformations, standout language",
+        "Extracts verbatim quotes for standout language bucket",
+        "Organizes output by product if multiple present",
+        "Identifies patterns across reviews rather than treating each in isolation"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What are customers actually saying about our product? I have 20 reviews here. Can you pull out the insights?",
+      "expected_output": "Should recognize 'what are customers saying' and 'pull out insights' as review-audit triggers. Should ask for the reviews if not provided, or analyze them if present. Should apply the 5-bucket framework. Should note that output feeds directly into creative strategy and hook development.",
+      "assertions": [
+        "Triggers on 'what are customers saying' phrasing",
+        "Applies 5-bucket analysis framework",
+        "Connects output to creative strategy downstream use"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Do a VOC analysis on these reviews. I want to find language I can use in my ads.",
+      "expected_output": "Should trigger on 'VOC analysis' and 'language for ads'. Should apply the full review-audit process including quality scoring. Should specifically surface Bucket 5 (Standout Language) prominently since that's the user's stated goal. Should still complete all 5 buckets as they all feed ad creative. Should flag which phrases are highest quality for direct ad use.",
+      "assertions": [
+        "Triggers on 'VOC analysis' phrasing",
+        "Applies quality scoring to reviews",
+        "Surfaces Standout Language bucket prominently given stated goal",
+        "Still completes all 5 buckets",
+        "Flags highest-quality phrases for direct ad use"
+      ],
+      "files": []
+    }
+  ]
+}

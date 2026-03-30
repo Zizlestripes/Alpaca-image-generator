@@ -1,0 +1,45 @@
+{
+  "skill_name": "brand-intake",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to run paid ads for a skincare brand called Luminate. Their website is luminateskin.com. Can you help me get started?",
+      "expected_output": "Should trigger Phase 1 intake interview immediately. Should ask all 8 questions at once in a single grouped message — not one by one. Questions should cover: brand name + URL (already provided, may skip), which products to focus on, what they already know about the audience, who competitors are, any brand constraints, and any existing creative to reference. Should NOT start researching yet — Phase 2 only begins after user answers.",
+      "assertions": [
+        "Triggers Phase 1 interview immediately",
+        "Asks all questions simultaneously in one message",
+        "Groups questions clearly by category",
+        "Does not begin web research before user answers",
+        "Covers brand basics, existing knowledge, and creative context"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "After the intake interview, the user has answered all questions. Brand: Luminate. URL: luminateskin.com. Product focus: vitamin C serum. Audience: women 28-45 with hyperpigmentation concerns. Competitors: SkinCeuticals, Drunk Elephant. Constraints: no before/after claims per Meta policy. No existing creative.",
+      "expected_output": "Should confirm it received the answers and indicate it will now proceed to Phase 2 research. Should systematically research all 9 areas: brand story, product catalog, unique mechanism, competitors, alternative solution, core audience, brand voice, creative constraints, and strategic context. Should use web_search and web_fetch tools. Should output a structured brand-context-luminate.md document with all sections, tables for products/competitors, and flagged gaps.",
+      "assertions": [
+        "Confirms receipt of intake answers",
+        "Proceeds to Phase 2 web research",
+        "Researches all 9 specified areas",
+        "Outputs structured brand-context-[brandname].md",
+        "Includes product and competitor tables",
+        "Flags gaps and low-confidence findings",
+        "Incorporates the Meta before/after constraint as confirmed"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Can you build me brand context before we start working on ad strategy?",
+      "expected_output": "Should recognize this as a brand-intake trigger. Should initiate Phase 1 interview, asking all questions at once. Should not ask what 'brand context' means or redirect to another skill. Should treat this as the start of a brand-intake workflow.",
+      "assertions": [
+        "Recognizes trigger phrase 'brand context'",
+        "Initiates Phase 1 intake interview",
+        "Asks all questions simultaneously",
+        "Does not require the user to name the skill explicitly"
+      ],
+      "files": []
+    }
+  ]
+}

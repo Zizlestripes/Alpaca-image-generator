@@ -1,0 +1,58 @@
+{
+  "skill_name": "hook-writing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write 10 hooks for an email productivity app targeting overwhelmed marketing managers. Awareness stage: Problem-Aware. Format: video ad.",
+      "expected_output": "Should apply the hook-writing framework with all inputs provided. Should use Problem-Aware stage approach: agitate the pain, demonstrate understanding of the struggle. Should use at least 3 different psychological triggers from the 8 available (Pain Agitation, Identity Call-Out, Curiosity Gap, etc.). Hooks should read naturally when spoken aloud, use specific details rather than generic claims, prioritize reader voice over brand voice, and lead with pain before revealing solution. Should NOT sound like corporate ad copy.",
+      "assertions": [
+        "Applies awareness stage approach correctly (Problem-Aware = agitate pain)",
+        "Uses multiple psychological triggers across the set",
+        "Hooks read naturally when spoken aloud",
+        "Uses specific details rather than vague claims",
+        "Leads with pain/reader experience before solution",
+        "Avoids corporate ad copy language",
+        "Generates the requested quantity"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Give me hooks for my ad.",
+      "expected_output": "Should recognize that required inputs are missing. Should ask for: (1) product and what it does, (2) specific pain point or desire, (3) target persona with life context, (4) awareness stage, (5) format (video or text), (6) quantity needed. Should ask for all missing inputs before generating hooks. Should not attempt to generate hooks without sufficient context.",
+      "assertions": [
+        "Identifies missing required inputs",
+        "Asks for product, pain/desire, persona, awareness stage, format, and quantity",
+        "Does not generate hooks without sufficient context",
+        "Asks all questions before proceeding"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Write hooks for a dog anxiety supplement. Persona: dog owner whose rescue dog has separation anxiety. Most-Aware stage. Need 5 hooks.",
+      "expected_output": "Should apply Most-Aware stage approach: direct offers, urgency, FOMO, final objection removal — audience already knows the product exists. Should use triggers appropriate to Most-Aware: Urgency/Stakes, Social Proof, Risk Reversal. Hooks should be direct and close-focused rather than problem-introducing. Should use specific, emotionally resonant language about rescue dogs and separation anxiety. Should not use Unaware/Problem-Aware patterns (don't introduce pain they already know about).",
+      "assertions": [
+        "Applies Most-Aware stage approach correctly (direct, close-focused)",
+        "Uses appropriate triggers for Most-Aware (Urgency, Social Proof, Risk Reversal)",
+        "Avoids Unaware/Problem-Aware patterns",
+        "Uses specific language about rescue dogs and separation anxiety",
+        "Generates the requested quantity (5)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "I need scroll-stopping openers for our TikTok ads for a fitness app targeting busy moms who feel too tired to work out.",
+      "expected_output": "Should trigger on 'scroll-stopping openers' and 'TikTok ads'. Should identify awareness stage as likely Problem-Aware or Unaware based on the 'too tired' framing. Should write hooks using Identity Call-Out (busy moms), Pain Agitation (too tired), and Relatability triggers. Hooks should be native to TikTok voice — casual, direct, not polished ad-speak. Should suggest pairing with hook-voice-patterns for native sentence structures if hooks need more feed-native feel.",
+      "assertions": [
+        "Triggers on 'scroll-stopping openers' language",
+        "Identifies appropriate awareness stage from context",
+        "Uses Identity Call-Out and Pain Agitation triggers for this persona",
+        "Produces TikTok-native voice, not polished ad copy",
+        "May reference hook-voice-patterns for native structures"
+      ],
+      "files": []
+    }
+  ]
+}

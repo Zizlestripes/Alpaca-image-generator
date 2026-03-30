@@ -1,0 +1,45 @@
+{
+  "skill_name": "hook-voice-patterns",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "These hooks are structurally correct but they feel too much like ads. Can you make them sound more native?",
+      "expected_output": "Should trigger on 'feel like an ad' and 'more native' language — this is the primary use case for hook-voice-patterns. Should pull templates from the swipe file that match the emotional register and tactic of the existing hooks. Should replace the ad-speak sentence structure with feed-native patterns from the library (Confession & Gatekeeping, Confusion & Discovery, Soft Signals & Casual Drops, etc.). Should preserve the underlying psychological trigger while changing the surface container. Should fill bracketed variables with brand/persona-specific language.",
+      "assertions": [
+        "Triggers on 'feel like an ad' / 'more native' language",
+        "Selects appropriate pattern clusters matching the emotional register",
+        "Applies feed-native sentence structures from the swipe file",
+        "Preserves the underlying psychological trigger",
+        "Fills bracketed variables with specific brand language",
+        "Does not change the core messaging angle — only the surface structure"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write TikTok-native hooks for a skincare brand targeting women in their 30s with hormonal breakouts.",
+      "expected_output": "Should apply TikTok Native Formats cluster from the pattern library. Should use patterns with TikTok-native containers: borrowed cultural formats, 'story time' structures, casual drops, trend-aware framings. Should combine with appropriate emotional clusters: Confession & Gatekeeping (skincare routines are often gatekeeper content), Experience Arc (tried everything, finally found this), Selective Audience (this is specifically for you). Hooks should sound like organic TikTok content, not produced ads.",
+      "assertions": [
+        "Applies TikTok Native Formats pattern cluster",
+        "Combines multiple relevant pattern clusters for this audience/topic",
+        "Produces hooks that sound like organic TikTok content",
+        "Uses emotional registers appropriate for skincare/hormonal breakouts (confession, experience arc)",
+        "Hooks do not sound like produced ads"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Give me hook voice patterns for a contrarian angle about sleep supplements — I want to challenge the 'just take melatonin' conventional wisdom.",
+      "expected_output": "Should recognize contrarian as the tactic and Pattern Interrupt as the trigger. Should pull patterns from Hot Takes & Contrarian cluster and Explanation Structures. Examples: 'Unpopular opinion: melatonin is not the move', 'Here's why everything you've been told about sleep supplements is wrong', 'Let me ruin melatonin for you'. Should pair pattern templates with the specific contrarian message. Should preserve the Pattern Interrupt trigger inside the native container.",
+      "assertions": [
+        "Recognizes contrarian tactic and Pattern Interrupt trigger",
+        "Pulls from Hot Takes & Contrarian pattern cluster",
+        "Applies templates to the specific message (melatonin myth-busting)",
+        "Patterns sound native to feed, not constructed",
+        "Preserves Pattern Interrupt trigger inside native container"
+      ],
+      "files": []
+    }
+  ]
+}
